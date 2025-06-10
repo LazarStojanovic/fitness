@@ -205,21 +205,36 @@
 
 @media (max-width: 968px) {
   .textContent {
-    height: 500px;
+    height: auto;
+    min-height: 500px;
+  }
+
+  .imageContent {
+    max-width: 100%;
+    width: 100%;
   }
 
   .imageContent img {
-    height: 500px;
+    height: 600px;
+    width: 100%;
   }
 }
 
 @media (max-width: 768px) {
   .textContent {
-    height: 400px;
+    height: auto;
+    min-height: auto;
+    margin-bottom: var(--spacing-md);
+  }
+
+  .imageContent {
+    width: 100%;
   }
 
   .imageContent img {
-    height: 400px;
+    height: 500px;
+    width: 100%;
+    object-position: center top;
   }
 
   .storySection {
@@ -251,5 +266,43 @@
 
   .credential span {
     font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .imageContent {
+    width: 100%;
+  }
+
+  .imageContent img {
+    height: 400px;
+    width: 100%;
+  }
+
+  .storyItem {
+    padding: 2px var(--spacing-xs);
+  }
+
+  .storyTitle {
+    font-size: 0.85rem;
+  }
+
+  .storyItem p {
+    font-size: 0.75rem;
+  }
+
+  .credential {
+    min-height: 30px;
+    padding: 2px var(--spacing-xs);
+  }
+
+  .credential i {
+    width: 20px;
+    height: 20px;
+    font-size: 0.8rem;
+  }
+
+  .credential span {
+    font-size: 0.75rem;
   }
 }

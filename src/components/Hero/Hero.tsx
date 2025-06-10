@@ -17,11 +17,6 @@ export const Hero: React.FC = () => {
       <div className="container">
         <div className={styles.heroContent}>
           <div className={styles.textContent}>
-            <div className={styles.badge}>
-              <i className="fas fa-dumbbell"></i>
-              <span>{t("brand.tagline")}</span>
-            </div>
-
             <h1 id="hero-title" className={styles.heroTitle}>
               {t("hero.title")}
             </h1>

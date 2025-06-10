@@ -92,7 +92,7 @@
 @media (max-width: 1720px) {
   .collaborationContent {
     grid-template-columns: 1fr;
-    gap: var(--spacing-xl);
+    gap: var(--spacing-2xl);
     justify-content: center;
   }
 
@@ -103,21 +103,38 @@
   }
 
   .textContent {
-    height: 910px;
+    height: auto;
+    min-height: 600px;
   }
 
   .imageContent {
-    height: 910px;
+    height: auto;
+  }
+
+  .imageContent img {
+    height: 600px;
   }
 }
 
 @media (max-width: 968px) {
+  .collaborationContent {
+    gap: var(--spacing-xl);
+  }
+
   .textContent {
-    height: 500px;
+    height: auto;
+    min-height: auto;
   }
 
   .imageContent {
-    height: 500px;
+    height: auto;
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .imageContent img {
+    height: 600px;
+    width: 100%;
   }
 
   .feature {
@@ -131,12 +148,25 @@
 }
 
 @media (max-width: 768px) {
+  .collaborationContent {
+    gap: var(--spacing-lg);
+  }
+
   .textContent {
-    height: 400px;
+    height: auto;
+    min-height: auto;
+    margin-bottom: var(--spacing-md);
   }
 
   .imageContent {
-    height: 400px;
+    height: auto;
+    width: 100%;
+  }
+
+  .imageContent img {
+    height: 500px;
+    width: 100%;
+    object-position: center top;
   }
 
   .feature {
@@ -154,5 +184,33 @@
 
   .featureContent p {
     font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .collaborationContent {
+    gap: var(--spacing-md);
+  }
+
+  .imageContent {
+    width: 100%;
+  }
+
+  .imageContent img {
+    height: 400px;
+    width: 100%;
+  }
+
+  .feature {
+    padding: 2px var(--spacing-xs);
+    min-height: 100px;
+  }
+
+  .featureContent h4 {
+    font-size: 0.85rem;
+  }
+
+  .featureContent p {
+    font-size: 0.75rem;
   }
 }
