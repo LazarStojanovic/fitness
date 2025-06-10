@@ -29,7 +29,9 @@ export default defineConfig({
           }
           return `assets/[name]-[hash][extname]`;
         },
+        format: "es",
       },
     },
+    outDir: "dist",
   },
 });
