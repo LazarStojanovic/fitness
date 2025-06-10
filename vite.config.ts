@@ -30,8 +30,19 @@ export default defineConfig({
           return `assets/[name]-[hash][extname]`;
         },
         format: "es",
+        manualChunks: undefined,
       },
     },
     outDir: "dist",
+    target: "es2015",
+    cssCodeSplit: true,
+    assetsInlineLimit: 4096,
+    minify: "esbuild",
+  },
+  server: {
+    cors: true,
+    hmr: {
+      overlay: false,
+    },
   },
 });
