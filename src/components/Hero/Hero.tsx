@@ -2,7 +2,6 @@ import React from "react";
 import { useTranslation } from "react-i18next";
 import { useSmoothScroll } from "../../hooks/useSmoothScroll";
 import styles from "./Hero.module.css";
-import landingImage from "../../assets/landing-image.webp";
 
 export const Hero: React.FC = () => {
   const { t } = useTranslation();
