@@ -1,0 +1,123 @@
+{
+  "brand": {
+    "name": "Ivana Nikić",
+    "trainerName": "Ivana Nikić",
+    "tagline": "Online trener"
+  },
+  "navigation": {
+    "aboutMe": "O Meni",
+    "collaboration": "Saradnja",
+    "planPriceList": "Plan/Cenovnik",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "title": "Započni svoje fitnes putovanje ka boljem sebi uz online saradnju sa mnom",
+    "subtitle": "Bez obzira da li si početnik, vežbaš već dugo, ili ti je samo nestalo motivacije za trening. Javi se i zajedno ćemo raditi na ostvarivanju tvojih fitnes ciljeva!",
+    "cta": "Počinjemo",
+    "description": "Počinjemo tako što ću ti postaviti nekoliko pitanja o tvojim trenutnim navikama i ciljevima. Na osnovu tih informacija, prilagodiću program treninga i ishrane baš tebi!"
+  },
+  "about": {
+    "title": "O MENI",
+    "lead": "Ja sam Ivana Nikić, master profesor sporta i fizičkog vaspitanja, kao i personalni trener i trener funkcionalnog fitnesa za žene u grupi.",
+    "description": "Moja strast prema fitnesu i zdravom načinu života razvila se još tokom mojih studentskih dana, kada sam intenzivno proučavala telo, zdravlje, ishranu i različite sportske discipline. Odlučila sam da svoje znanje i energiju usmerim ka trenerskom pozivu i teretani, te sam se od 2019. godine posvetila drugima da postignu svoje fitnes ciljeve i unaprede svoje zdravlje. Trenerski posao je zahtevan i izazovan, jer svako telo ima svoje specifičnosti i potrebe. Međutim, uz moje iskustvo, posvećenost i kontinuirano usavršavanje, tu sam da vam pomognem da postignete željene rezultate. Bez obzira da li želite da izgradite mišiće, izgubite višak kilograma, poboljšate kondiciju ili jednostavno želite da se osećate bolje u svom telu, prilagodiću treninge i ishranu vašim individualnim potrebama i ciljevima.",
+    "goals": "Da li želiš mršavljenje, nabacivanje mišićne mase, rad na sebi ili rad na snazi?",
+    "commitment": "Tvoj zadatak će biti da se predaš procesu i da uvek kažes koliko je plan ispoštovan, da li u potpunosti ili je bilo odstupanja.",
+    "credentials": {
+      "cert1": "Master profesor sporta i fizičkog vaspitanja",
+      "cert2": "Personalni trener",
+      "cert3": "Trener funkcionalnog fitnesa za žene"
+    }
+  },
+  "collaboration": {
+    "title": "1:1 MENTORSTVO",
+    "lead": "Šta sve dobijaš:",
+    "features": {
+      "training": {
+        "title": "Plan treninga",
+        "description": "Personalizovani program treninga kreiran specifično za tebe i tvoje ciljeve."
+      },
+      "nutrition": {
+        "title": "Plan ishrane",
+        "description": "Na osnovu toga šta voliš da jedeš i koje namirnice ti prijaju"
+      },
+      "videos": {
+        "title": "Video uputstva za vežbe",
+        "description": "Tako da ćeš tačno znati kako da izvodiš svaku tehniku"
+      },
+      "communication": {
+        "title": "Viber komunikacija sa mnom",
+        "description": "Da bismo pratili tvoj napredak, obavezni su nedeljni izveštaji. Na taj način ćemo zajedno videti kako tvoje telo reaguje na treninge i ishranu, i prilagoditi plan po potrebi. Ako se pojave bilo kakva pitanja ili nedoumice, biću dostupna na Viberu!"
+      }
+    }
+  },
+  "pricing": {
+    "title": "IZABERI SVOJ PLAN",
+    "lead": "Zainteresovan/a si da kreneš sa mnom na put ka svojim fitnes ciljevima? Prijavi se za online saradnju preko mog Instagram naloga ili mejla:",
+    "mostPopular": "Najpopularniji",
+    "plans": {
+      "starter": {
+        "title": "PLAN OD 6 NEDELJA",
+        "price": "10,000",
+        "period": "rsd",
+        "features": {
+          "sessions": "Ciklus treninga u trajanju od 6 nedelja",
+          "workout": "Plan treninga",
+          "nutrition": "Plan ishrane",
+          "videos": "Video vežbe",
+          "tracking": "Praćenje progresa",
+          "technique": "Tehnika",
+          "support": "Komunikacija putem Vibera"
+        },
+        "button": "Izaberi plan"
+      },
+      "transformation": {
+        "title": "PLAN OD 12 NEDELJA",
+        "price": "18,000",
+        "period": "rsd",
+        "features": {
+          "sessions": "Ciklus treninga u trajanju od 12 nedelja",
+          "workout": "Plan treninga",
+          "nutrition": "Plan ishrane",
+          "videos": "Video vežbe",
+          "tracking": "Praćenje progresa",
+          "technique": "Tehnika",
+          "support": "Komunikacija putem Vibera"
+        },
+        "button": "Izaberi plan"
+      },
+      "elite": {
+        "title": "PERSONALNI TRENING",
+        "price": "13,000",
+        "period": "rsd",
+        "features": {
+          "sessions": "*Uplata važi za kalendarskih mesec dana",
+          "note": "Cena teretane nije uključena u cenu usluge",
+          "contact": "Kontakt - instagram/mail"
+        },
+        "button": "Kontakt"
+      }
+    },
+    "afterPayment": "Nakon prijave i uplate, dobijaš personalizovani program kreiran samo za tebe, tako da možemo odmah početi raditi na ostvarivanju tvojih ciljeva!"
+  },
+  "contact": {
+    "title": "Kontakt",
+    "lead": "Zainteresovan/a si da kreneš sa mnom na put ka svojim fitnes ciljevima?",
+    "info": {
+      "phone": "Uskoro dostupno",
+      "email": "nikicivana5@gmail.com",
+      "location1": "Gym Town, Niš",
+      "location2": "Gym Town 2, Niš",
+      "hours": "Ponedeljak - Petak: 9:00 - 17:00",
+      "instagram": "@ivana.nikicc"
+    },
+    "cta": "Pošalji poruku"
+  },
+  "footer": {
+    "copyright": "© Ivana Nikić, 2025",
+    "copyrightText": "Sve slike na ovoj veb stranici su isključivo vlasništvo Ivane Nikić i zaštićene su međunarodnim zakonima o autorskim pravima. Fotografije se ne smeju preuzimati, reprodukovati, kopirati, skladištiti, manipulisati, projektovati, koristiti ili menjati na bilo koji način, samostalno ili sa bilo kojim drugim materijalom, niti putem računara ili drugih elektronskih sredstava bez izričite pismene dozvole Ivane Nikić. Korišćenje bilo koje slike kao osnove za drugi fotografski koncept ili ilustraciju predstavlja kršenje autorskih prava. Posetom ove veb stranice slažete se da budete obavezani uslovima ovog sporazuma."
+  },
+  "language": {
+    "english": "English",
+    "serbian": "Srpski"
+  }
+}
