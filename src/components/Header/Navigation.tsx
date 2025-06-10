@@ -44,19 +44,27 @@ export const Navigation: React.FC<NavigationProps> = ({
   };
 
   return (
-    <nav className={`${styles.nav} ${className}`}>
-      {navigationItems.map((item) => (
-        <a
-          key={item.id}
-          href={item.href}
-          className={`${styles.navLink} ${
-            activeSection === item.id ? styles.active : ""
-          }`}
-          onClick={(e) => handleNavClick(e, item.id)}
-        >
-          {item.label}
-        </a>
-      ))}
+    <nav
+      className={`${styles.nav} ${className}`}
+      role="navigation"
+      aria-label="Main navigation"
+    >
+      <ul className={styles.navList}>
+        {navigationItems.map((item) => (
+          <li key={item.id} className={styles.navItem}>
+            <a
+              href={item.href}
+              className={`${styles.navLink} ${
+                activeSection === item.id ? styles.active : ""
+              }`}
+              onClick={(e) => handleNavClick(e, item.id)}
+              aria-current={activeSection === item.id ? "page" : undefined}
+            >
+              {item.label}
+            </a>
+          </li>
+        ))}
+      </ul>
     </nav>
   );
 };

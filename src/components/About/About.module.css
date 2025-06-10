@@ -21,6 +21,7 @@
 
 .imageContent img {
   width: 100%;
+  height: 700px;
   border-radius: var(--border-radius-md);
   box-shadow: var(--shadow-md);
   object-fit: cover;
@@ -52,5 +53,15 @@
   .aboutContent {
     grid-template-columns: 1fr;
     gap: var(--spacing-xl);
+  }
+
+  .imageContent img {
+    height: 450px;
+  }
+}
+
+@media (max-width: 768px) {
+  .imageContent img {
+    height: 350px;
   }
 }

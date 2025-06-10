@@ -19,7 +19,7 @@ export const Header: React.FC = () => {
     .join(" ");
 
   return (
-    <header className={headerClasses}>
+    <header className={headerClasses} role="banner">
       <div className="container">
         <div className={styles.headerContent}>
           <Logo />
@@ -29,9 +29,16 @@ export const Header: React.FC = () => {
             <button
               className={styles.mobileMenuBtn}
               onClick={handleMobileMenuToggle}
-              aria-label="Toggle mobile menu"
+              aria-label={
+                isMobileMenuOpen ? "Close mobile menu" : "Open mobile menu"
+              }
+              aria-expanded={isMobileMenuOpen}
+              aria-controls="mobile-menu"
             >
-              <i className="fas fa-bars" />
+              <i
+                className={isMobileMenuOpen ? "fas fa-times" : "fas fa-bars"}
+                aria-hidden="true"
+              />
             </button>
           </div>
         </div>

@@ -13,18 +13,26 @@ export const About: React.FC = () => {
   ];
 
   return (
-    <section id="about" className={`section ${styles.about}`}>
+    <section
+      id="about"
+      className={`section ${styles.about}`}
+      aria-labelledby="about-title"
+    >
       <div className="container">
         <div className={styles.aboutContent}>
           <div className={styles.textContent}>
-            <h2>{t("about.title")}</h2>
+            <h2 id="about-title">{t("about.title")}</h2>
             <p className="lead">{t("about.lead")}</p>
             <p>{t("about.description")}</p>
 
-            <div className={styles.credentials}>
+            <div
+              className={styles.credentials}
+              role="list"
+              aria-label="Professional credentials"
+            >
               {credentials.map((credential, index) => (
-                <div key={index} className={styles.credential}>
-                  <i className={credential.icon} />
+                <div key={index} className={styles.credential} role="listitem">
+                  <i className={credential.icon} aria-hidden="true" />
                   <span>{credential.title}</span>
                 </div>
               ))}
@@ -34,7 +42,14 @@ export const About: React.FC = () => {
           <div className={styles.imageContent}>
             <img
               src={aboutMeImage}
-              alt={`${t("brand.trainerName")} - ${t("brand.tagline")}`}
+              alt={`Professional photo of ${t(
+                "brand.trainerName"
+              )}, certified personal fitness trainer specializing in ${t(
+                "brand.tagline"
+              )}`}
+              loading="lazy"
+              width="400"
+              height="500"
             />
           </div>
         </div>

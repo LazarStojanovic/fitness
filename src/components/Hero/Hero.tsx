@@ -12,13 +12,17 @@ export const Hero: React.FC = () => {
   };
 
   return (
-    <section className={styles.hero}>
+    <section className={styles.hero} aria-labelledby="hero-title">
       <div className="container">
         <div className={styles.heroContent}>
           <div className={styles.textContent}>
-            <h1>{t("hero.title")}</h1>
-            <p>{t("hero.subtitle")}</p>
-            <button className="btn btn-primary" onClick={handleCTAClick}>
+            <h1 id="hero-title">{t("hero.title")}</h1>
+            <p className="lead">{t("hero.subtitle")}</p>
+            <button
+              className="btn btn-primary"
+              onClick={handleCTAClick}
+              aria-describedby="hero-title"
+            >
               {t("hero.cta")}
             </button>
           </div>
