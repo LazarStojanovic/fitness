@@ -50,8 +50,10 @@ export const Collaboration: React.FC = () => {
           </div>
 
           <div className={styles.textContent}>
-            <h2>{t("collaboration.title")}</h2>
-            <p className="lead">{t("collaboration.lead")}</p>
+            <div className={styles.headerSection}>
+              <h2>{t("collaboration.title")}</h2>
+              <p className="lead">{t("collaboration.lead")}</p>
+            </div>
 
             <div className={styles.features}>
               {features.map((feature, index) => (

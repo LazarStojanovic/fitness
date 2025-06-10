@@ -7,9 +7,21 @@ export const About: React.FC = () => {
   const { t } = useTranslation();
 
   const credentials = [
-    { icon: "fas fa-certificate", title: t("about.credentials.cert1") },
-    { icon: "fas fa-certificate", title: t("about.credentials.cert2") },
-    { icon: "fas fa-certificate", title: t("about.credentials.cert3") },
+    {
+      icon: "fas fa-graduation-cap",
+      title: t("about.credentials.cert1"),
+      color: "#667eea",
+    },
+    {
+      icon: "fas fa-dumbbell",
+      title: t("about.credentials.cert2"),
+      color: "#764ba2",
+    },
+    {
+      icon: "fas fa-venus",
+      title: t("about.credentials.cert3"),
+      color: "#e74c3c",
+    },
   ];
 
   return (
@@ -21,9 +33,44 @@ export const About: React.FC = () => {
       <div className="container">
         <div className={styles.aboutContent}>
           <div className={styles.textContent}>
-            <h2 id="about-title">{t("about.title")}</h2>
-            <p className="lead">{t("about.lead")}</p>
-            <p>{t("about.description")}</p>
+            <div className={styles.headerSection}>
+              <h2 id="about-title">{t("about.title")}</h2>
+              <p className="lead">{t("about.lead")}</p>
+            </div>
+
+            <div className={styles.storySection}>
+              <div className={styles.storyItem}>
+                <h3 className={styles.storyTitle}>
+                  <i className="fas fa-heart" aria-hidden="true"></i>
+                  {t("about.storyTitles.passion")}
+                </h3>
+                <p>{t("about.passion")}</p>
+              </div>
+
+              <div className={styles.storyItem}>
+                <h3 className={styles.storyTitle}>
+                  <i className="fas fa-road" aria-hidden="true"></i>
+                  {t("about.storyTitles.journey")}
+                </h3>
+                <p>{t("about.journey")}</p>
+              </div>
+
+              <div className={styles.storyItem}>
+                <h3 className={styles.storyTitle}>
+                  <i className="fas fa-lightbulb" aria-hidden="true"></i>
+                  {t("about.storyTitles.philosophy")}
+                </h3>
+                <p>{t("about.philosophy")}</p>
+              </div>
+
+              <div className={styles.storyItem}>
+                <h3 className={styles.storyTitle}>
+                  <i className="fas fa-users" aria-hidden="true"></i>
+                  {t("about.storyTitles.approach")}
+                </h3>
+                <p>{t("about.approach")}</p>
+              </div>
+            </div>
 
             <div
               className={styles.credentials}
@@ -32,7 +79,11 @@ export const About: React.FC = () => {
             >
               {credentials.map((credential, index) => (
                 <div key={index} className={styles.credential} role="listitem">
-                  <i className={credential.icon} aria-hidden="true" />
+                  <i
+                    className={credential.icon}
+                    aria-hidden="true"
+                    style={{ color: credential.color }}
+                  />
                   <span>{credential.title}</span>
                 </div>
               ))}

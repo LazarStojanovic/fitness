@@ -1,9 +1,15 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
+import { useSmoothScroll } from "../../hooks/useSmoothScroll";
 import styles from "./Pricing.module.css";
 
 export const Pricing: React.FC = () => {
   const { t } = useTranslation();
+  const { scrollToElement } = useSmoothScroll();
+
+  const handleContactClick = () => {
+    scrollToElement("contact");
+  };
 
   const pricingPlans = [
     {
@@ -20,7 +26,7 @@ export const Pricing: React.FC = () => {
         t("pricing.plans.starter.features.technique"),
         t("pricing.plans.starter.features.support"),
       ],
-      buttonText: t("pricing.plans.starter.button"),
+      buttonText: t("navigation.contact"),
     },
     {
       id: "transformation",
@@ -36,7 +42,7 @@ export const Pricing: React.FC = () => {
         t("pricing.plans.transformation.features.technique"),
         t("pricing.plans.transformation.features.support"),
       ],
-      buttonText: t("pricing.plans.transformation.button"),
+      buttonText: t("navigation.contact"),
       featured: true,
       popular: true,
     },
@@ -50,7 +56,7 @@ export const Pricing: React.FC = () => {
         t("pricing.plans.elite.features.note"),
         t("pricing.plans.elite.features.contact"),
       ],
-      buttonText: t("pricing.plans.elite.button"),
+      buttonText: t("navigation.contact"),
     },
   ];
 
@@ -94,6 +100,7 @@ export const Pricing: React.FC = () => {
                   className={`btn ${
                     plan.featured ? "btn-secondary" : "btn-primary"
                   } ${styles.planBtn}`}
+                  onClick={handleContactClick}
                 >
                   {plan.buttonText}
                 </button>

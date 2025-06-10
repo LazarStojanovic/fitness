@@ -29,6 +29,9 @@
   text-align: center;
   position: relative;
   transition: transform var(--transition-fast);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
 .pricingCard:hover {
@@ -80,6 +83,7 @@
   list-style: none;
   margin-bottom: var(--spacing-lg);
   text-align: left;
+  flex-grow: 1;
 }
 
 .features li {
@@ -99,6 +103,7 @@
 
 .planBtn {
   width: 100%;
+  margin-top: auto;
 }
 
 .afterPayment {

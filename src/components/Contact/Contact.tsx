@@ -1,6 +1,5 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
-import type { SocialLink } from "../../types";
 import { ImageCarousel } from "../ImageCarousel/ImageCarousel";
 import styles from "./Contact.module.css";
 import gymTownEntrance from "../../assets/gym-town-2-entrence.webp";
@@ -8,13 +7,6 @@ import gymTownBarbells from "../../assets/gym-town-2-barbels.webp";
 import gymTownStepper from "../../assets/gym-town-2-stepper.webp";
 import gymTownLounge from "../../assets/gym-town-2-lonuge.webp";
 import gymTown2 from "../../assets/gym-townn-2.webp";
-
-const socialLinks: SocialLink[] = [
-  { icon: "fab fa-instagram", href: "#", label: "Instagram" },
-  { icon: "fab fa-facebook", href: "#", label: "Facebook" },
-  { icon: "fab fa-youtube", href: "#", label: "YouTube" },
-  { icon: "fab fa-tiktok", href: "#", label: "TikTok" },
-];
 
 export const Contact: React.FC = () => {
   const { t } = useTranslation();
@@ -36,6 +28,11 @@ export const Contact: React.FC = () => {
         t("contact.info.phone") !== "Uskoro dostupno"
           ? `tel:${t("contact.info.phone")}`
           : undefined,
+    },
+    {
+      icon: "fab fa-instagram",
+      text: t("contact.info.instagram"),
+      href: "https://www.instagram.com/ivana.nikicc",
     },
     {
       icon: "fas fa-envelope",
@@ -99,21 +96,6 @@ export const Contact: React.FC = () => {
                 </div>
               ))}
             </div>
-
-            <div className={styles.socialLinks}>
-              {socialLinks.map((link, index) => (
-                <a
-                  key={index}
-                  href={link.href}
-                  className={styles.socialLink}
-                  aria-label={link.label}
-                >
-                  <i className={link.icon} />
-                </a>
-              ))}
-            </div>
-
-            <button className="btn btn-primary">{t("contact.cta")}</button>
           </div>
         </div>
       </div>

@@ -19,7 +19,16 @@
   "about": {
     "title": "O MENI",
     "lead": "Ja sam Ivana Nikić, master profesor sporta i fizičkog vaspitanja, kao i personalni trener i trener funkcionalnog fitnesa za žene u grupi.",
-    "description": "Moja strast prema fitnesu i zdravom načinu života razvila se još tokom mojih studentskih dana, kada sam intenzivno proučavala telo, zdravlje, ishranu i različite sportske discipline. Odlučila sam da svoje znanje i energiju usmerim ka trenerskom pozivu i teretani, te sam se od 2019. godine posvetila drugima da postignu svoje fitnes ciljeve i unaprede svoje zdravlje. Trenerski posao je zahtevan i izazovan, jer svako telo ima svoje specifičnosti i potrebe. Međutim, uz moje iskustvo, posvećenost i kontinuirano usavršavanje, tu sam da vam pomognem da postignete željene rezultate. Bez obzira da li želite da izgradite mišiće, izgubite višak kilograma, poboljšate kondiciju ili jednostavno želite da se osećate bolje u svom telu, prilagodiću treninge i ishranu vašim individualnim potrebama i ciljevima.",
+    "passion": "Moja strast prema fitnesu i zdravom načinu života razvila se još tokom mojih studentskih dana, kada sam intenzivno proučavala telo, zdravlje, ishranu i različite sportske discipline.",
+    "journey": "Odlučila sam da svoje znanje i energiju usmerim ka trenerskom pozivu i teretani, te sam se od 2019. godine posvetila drugima da postignu svoje fitnes ciljeve i unaprede svoje zdravlje.",
+    "philosophy": "Trenerski posao je zahtevan i izazovan, jer svako telo ima svoje specifičnosti i potrebe. Međutim, uz moje iskustvo, posvećenost i kontinuirano usavršavanje, tu sam da vam pomognem da postignete željene rezultate.",
+    "approach": "Bez obzira da li želite da izgradite mišiće, izgubite višak kilograma, poboljšate kondiciju ili jednostavno želite da se osećate bolje u svom telu, prilagodiću treninge i ishranu vašim individualnim potrebama i ciljevima.",
+    "storyTitles": {
+      "passion": "Moja strast",
+      "journey": "Moj put",
+      "philosophy": "Moja filozofija",
+      "approach": "Moj pristup"
+    },
     "goals": "Da li želiš mršavljenje, nabacivanje mišićne mase, rad na sebi ili rad na snazi?",
     "commitment": "Tvoj zadatak će biti da se predaš procesu i da uvek kažes koliko je plan ispoštovan, da li u potpunosti ili je bilo odstupanja.",
     "credentials": {

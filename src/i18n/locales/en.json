@@ -19,7 +19,16 @@
   "about": {
     "title": "ABOUT ME",
     "lead": "I am Ivana Nikić, master professor of sports and physical education, as well as a personal trainer and functional fitness trainer for women in groups.",
-    "description": "My passion for fitness and healthy lifestyle developed during my student days, when I intensively studied the body, health, nutrition and various sports disciplines. I decided to direct my knowledge and energy towards the coaching profession and the gym, so since 2019 I have been dedicated to helping others achieve their fitness goals and improve their health. Coaching is demanding and challenging, because every body has its own specifics and needs. However, with my experience, dedication and continuous improvement, I'm here to help you achieve the desired results. Whether you want to build muscle, lose excess weight, improve fitness or simply want to feel better in your body, I will adapt training and nutrition to your individual needs and goals.",
+    "passion": "My passion for fitness and healthy lifestyle developed during my student days, when I intensively studied the body, health, nutrition and various sports disciplines.",
+    "journey": "I decided to direct my knowledge and energy towards the coaching profession and the gym, so since 2019 I have been dedicated to helping others achieve their fitness goals and improve their health.",
+    "philosophy": "Coaching is demanding and challenging, because every body has its own specifics and needs. However, with my experience, dedication and continuous improvement, I'm here to help you achieve the desired results.",
+    "approach": "Whether you want to build muscle, lose excess weight, improve fitness or simply want to feel better in your body, I will adapt training and nutrition to your individual needs and goals.",
+    "storyTitles": {
+      "passion": "My Passion",
+      "journey": "My Journey",
+      "philosophy": "My Philosophy",
+      "approach": "My Approach"
+    },
     "goals": "Do you want weight loss, muscle mass gain, working on yourself or strength training?",
     "commitment": "Your task will be to surrender to the process and always say how much the plan was followed, whether completely or there were deviations.",
     "credentials": {
